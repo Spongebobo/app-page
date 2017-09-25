@@ -1,0 +1,137 @@
+@media (min-width: 575px) {
+    .wrapper {
+        position: relative;
+        display: inline-block;
+        width: 514px!important;
+        height: 520px!important;
+    }
+    .slider-middle {
+        position: absolute;
+        width: 257px;
+        height: 520px;
+        left: 128px;
+        top:0px;
+        z-index: 100;
+        transition-duration: 1s;
+        box-shadow: 0px 20px 15px -15px gray;
+    }
+    .slider-left-1 {
+        position: absolute;
+        height: 440px;
+        width: 217px;
+        right: 50%;
+        bottom:0px;
+        z-index: 99;
+        opacity: 0.9;
+        transition-duration: 1s;
+    }
+
+    .slider-right-1 {
+        position: absolute;
+        height: 440px;
+        width: 217px;
+        left: 50%;
+        bottom:0px;
+        z-index: 99;
+        opacity: 0.9;
+        transition-duration: 1s;
+    }
+
+    .slider-hide {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    [class^=arr-] {
+        /* Arrows @RCB */
+        border: solid currentColor;
+        border-width: 0 0.15em 0.15em 0;
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .row-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {
+        position: relative;
+        display: inline-block;
+        width: 257px!important;
+        height: 260px!important;
+    }
+    .slider-middle {
+        position: absolute;
+        width: 128px;
+        height: 260px;
+        left: 64px;
+        bottom:0px;
+        z-index: 100;
+        transition-duration: 1s;
+        box-shadow: 0px 20px 15px -15px gray;
+    }
+    .slider-left-1 {
+        position: absolute;
+        height: 220px;
+        width: 118px;
+        right: 50%;
+        bottom:0px;
+        z-index: 99;
+        opacity: 0.9;
+        transition-duration: 1s;
+    }
+
+    .slider-right-1 {
+        position: absolute;
+        height: 220px;
+        width: 118px;
+        right: 50%;
+        left: 50%;
+        bottom: 0;
+        z-index: 99;
+        opacity: 0.9;
+        transition-duration: 1s;
+    }
+
+    .slider-hide {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    [class^=arr-] {
+        /* Arrows @RCB */
+        border: solid currentColor;
+        border-width: 0 0.15em 0.15em 0;
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+    .self-section{
+        display: block;
+        align-self: stretch;
+    }
+
+    .self-section .toggle_row{
+        width: 50%;
+        float: left;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 991px) {
+    .wrapper {
+       margin-left: 20%;
+    }
+}
+
